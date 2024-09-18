@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca de um intercambio</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Em Busca de um intercambio</header>
+            <img src="img/reunião.png" alt="Inicio da Jornada">
+            <p>Em uma certa reunião surgiu uma questão sobre em qual país do mundo seria o melhor lugar para se fazer um intercambio, até então existe um pais perdido que possa ser o melhor para se fazer um intercambio! para descobrir qual é, procure as dicas pelo Canada ou pela Italia</p>
+            <button class="btn-proximo" data-proximo="1">Canada</button>
+            <button class="btn-proximo" data-proximo="2">Itália</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/canada.png" alt="Chegamos no Canada">
+            <p>Você começa sua jornada no Canada, as pistas comçeram, você prefere continuar ou parar por aqui...</p>
+            <button class="btn-proximo" data-proximo="3">Procurar nas Cataratas do Niágara,</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a reunião</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/italia.png" alt="Na Itália">
+            <p>Na Italia a pista pode estar em duas cidades, e agora? em qual você vai procurar?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar em Roma</button>
+            <button class="btn-proximo" data-proximo="6">Explorar Milão</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/cataratas.png" alt="Chegando nas Cataratas do Niágara">
+            <p>Ao chegar nas Cataratas, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Museu Real de Ontário</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para o Museu</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/reunião.png" alt="O retorno para a reunião">
+            <p>Você decide que é longe demais e volta para a reunião.
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/Roma.png" alt="Em Roma">
+            <p>Em Roma, você descobre um mapa antigo escondido no Coliseu, apontando que a próxima
+             dica está lá   </p>
+            <button class="btn-proximo" data-proximo="13">Viajar para o Coliseu</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/milão.png" alt="Em Milão">
+            <p>Explorando Milão, você encontra o Arco della Pace, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar Roma</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/museu.png" alt="Dificil escolha">
+            <p>Ao chegar no Museu, você se depara com um caminho bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho a frente</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/roma2.png" alt="Em Roma">
+            <p>De volta em Roma, você finalmente encontra o local aonde estár a melhor dica!</p>
+            <button class="btn-proximo" data-proximo="13">Seguir para o coliseu>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/caminho.png" alt="Entrada do paraiso">
+            <p>No caminho à frente leva você a uma bela estrada com inscrições antigas que revelam a entrada do
+            melhor país.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o país</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/caminho27.jpg" alt="Inicio da Jornada">
+            <p>O caminho à direita segui por uma estrada cheia de pedras. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/brasil-bandeira-cidade-scaled.jpg" alt="Chegamos no país">
+            <p>Dentro do Brasil, você descobre que pode fazer um intercambio cheio de conhecimentos sobre essa cultura e esse país
+                tropical</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/caminho.png" alt="Inicio da Jornada">
+            <p>Retornando e escolhendo o caminho à frente, você finalmente encontra a bela estrada escondida e as inscrições
+                que levam à esse país secreto.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar esse país</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/coliseu.png" alt="Inicio da Jornada">
+            <p>Chegando no Coliseu, você finalmente encontra a bela estrada escondida e as inscrições
+                que levam à esse país secreto.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar esse país</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
